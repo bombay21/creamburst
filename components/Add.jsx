@@ -10,6 +10,7 @@ const Add = ({ setClose }) => {
   const [prices, setPrices] = useState([]);
   const [extraOptions, setExtraOptions] = useState([]);
   const [extra, setExtra] = useState(null);
+  const test = "tests"
 
   const changePrice = (e, index) => {
     const currentPrices = prices;
